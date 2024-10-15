@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const randomPromise = new Promise((resolve, reject) => {
-	const time = Math.floor(Math.random() * 3) + 1;
+	const time = Math.random() + 2;
 	setTimeout(() => {
 		resolve(time.toFixed(3));
 	}, time*1000)
